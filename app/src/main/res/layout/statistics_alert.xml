@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/allQuestions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/allText"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:id="@+id/allCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/count"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/allQuestions"
+        app:layout_constraintTop_toTopOf="@+id/allQuestions"
+        android:layout_marginStart="15dp" />
+
+    <TextView
+        android:id="@+id/rightQuestions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rightText"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/allQuestions"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:id="@+id/rightCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/count"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/rightQuestions"
+        app:layout_constraintTop_toTopOf="@+id/rightQuestions"
+        android:layout_marginStart="15dp" />
+
+    <TextView
+        android:id="@+id/wrongQuestions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wrongText"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/rightQuestions"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:paddingBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/wrongCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/count"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/wrongQuestions"
+        app:layout_constraintTop_toTopOf="@+id/wrongQuestions"
+        android:layout_marginStart="15dp" />
+    
+</androidx.constraintlayout.widget.ConstraintLayout>

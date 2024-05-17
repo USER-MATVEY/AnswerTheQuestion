@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AnswerTheQuestion</string>
+    <string name="title">Отгадай загадки!</string>
+    <string name="answers">Отгадано:</string>
+    <string name="count">0</string>
+    <string name="question">Текст Загадки здесь</string>
+    <string name="right_wrong">Правильно/Неправильно</string>
+    <string name="answer">Ответить</string>
+    <string name="next">Далее</string>
+    <string name="statistics">Статистика</string>
+    <string name="chose_answer">Выберите ответ</string>
+    <string name="allText">Всего загадок:</string>
+    <string name="rightText">Правильно решено:</string>
+    <string name="wrongText">Неправильно решено:</string>
+</resources>
