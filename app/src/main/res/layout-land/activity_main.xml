@@ -81,7 +81,9 @@
         android:textAllCaps="true"
         app:layout_constraintStart_toEndOf="@+id/answerButton"
         app:layout_constraintBottom_toBottomOf="@+id/answerButton"
-        app:layout_constraintEnd_toStartOf="@+id/statisticButton" />
+        app:layout_constraintEnd_toStartOf="@+id/statisticButton"
+
+        android:enabled="false"/>
 
     <Button
         android:id="@+id/statisticButton"
@@ -92,6 +94,8 @@
         android:textAllCaps="true"
         app:layout_constraintStart_toEndOf="@+id/nextButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/nextButton"/>
+        app:layout_constraintTop_toTopOf="@+id/nextButton"
+
+        android:enabled="false"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
